@@ -146,6 +146,33 @@ class _HomeViewState extends State<HomeView> {
     );
   }
 }
+List<DishCardModel> dishes = [
+  DishCardModel(
+      dishName: 'Classic Greek \nSalad',
+      image: 'assets/image/dishes/Image1.png',
+      rate: '4.5',
+      time: '15 Mins'),
+  DishCardModel(
+      dishName: 'Crunchy Nut \nColeslaw',
+      image: 'assets/image/dishes/Image2.png',
+      rate: '3.5',
+      time: '10 Mins'),
+  DishCardModel(
+      dishName: 'Shrimp Chicken \nAndouille\n Sausage Jambalaya',
+      image: 'assets/image/dishes/Image3.png',
+      rate: '3.0',
+      time: '10 Mins'),
+  DishCardModel(
+      dishName: 'Barbecue Chicken \nJollof\n Rice',
+      image: 'assets/image/dishes/Image4.png',
+      rate: '4.5',
+      time: '10 Mins'),
+  DishCardModel(
+      dishName: 'Portuguese Piri \nChicken',
+      image: 'assets/image/dishes/Image5.png',
+      rate: '4.5',
+      time: '10 Mins'),
+];
 
 List<NewRecipesCardModel> newRecipes = [
   NewRecipesCardModel(
@@ -174,30 +201,4 @@ List<NewRecipesCardModel> newRecipes = [
       time: '20 mins',
       image: 'assets/image/new recipes/newRecipes5.png'),
 ];
-List<DishCardModel> dishes = [
-  DishCardModel(
-      dishName: 'Classic Greek \nSalad',
-      image: 'assets/image/dishes/Image1.png',
-      rate: '4.5',
-      time: '15 Mins'),
-  DishCardModel(
-      dishName: 'Crunchy Nut \nColeslaw',
-      image: 'assets/image/dishes/Image2.png',
-      rate: '3.5',
-      time: '10 Mins'),
-  DishCardModel(
-      dishName: 'Shrimp Chicken \nAndouille\n Sausage Jambalaya',
-      image: 'assets/image/dishes/Image3.png',
-      rate: '3.0',
-      time: '10 Mins'),
-  DishCardModel(
-      dishName: 'Barbecue Chicken \nJollof\n Rice',
-      image: 'assets/image/dishes/Image4.png',
-      rate: '4.5',
-      time: '10 Mins'),
-  DishCardModel(
-      dishName: 'Portuguese Piri \nChicken',
-      image: 'assets/image/dishes/Image5.png',
-      rate: '4.5',
-      time: '10 Mins'),
-];
+

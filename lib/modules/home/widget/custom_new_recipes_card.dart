@@ -44,6 +44,7 @@ class CustomNewRecipesCard extends StatelessWidget {
               Text(
                 textAlign: TextAlign.center,
                 newRecipesCard,
+                overflow: TextOverflow.ellipsis,
                 maxLines: 1,
                 style: const TextStyle(
                   fontSize: 14,
